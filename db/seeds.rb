@@ -12,8 +12,8 @@ user4 = User.create(name: "Gazorpazop")
 
 puts "Creating reviews..."
 
-Review.create(star_rating: 4, comment:'Liked It!')
-Review.create(star_rating: 2, comment:'Poor!')
-Review.create(star_rating: 5, comment:'Great product!')
-Review.create(star_rating: 3, comment:'Average!')
+Review.create(star_rating: 4, comment:'Liked It!', user: user1, product: laptop )
+Review.create(star_rating: 2, comment:'Poor!', user: user2, product: television )
+Review.create(star_rating: 5, comment:'Great product!', user: user3, product: microwave )
+Review.create(star_rating: 3, comment:'Average!', user: user4, product: oven )
 puts "Seeding done!"
