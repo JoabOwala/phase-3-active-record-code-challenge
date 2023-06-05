@@ -12,7 +12,7 @@ For our purposes, a Product has many Users, a User has many Products’ s, and a
 
 Product - User is a many to many relationship.
 
-(image/ERD.png)
+![E R D](image/ERD.png)
 
 Note: You should design your domain/Entity Relationship Diagram(ERD) using any Unified Modelling Language such as starUML Links to an external site.before you start coding. You are required to include it in your README.
 
